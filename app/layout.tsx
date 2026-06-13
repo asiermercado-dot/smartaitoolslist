@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   openGraph: { type: 'website', locale: 'en_US', siteName: 'SmartAIToolsList' },
   twitter: { card: 'summary_large_image' },
   robots: { index: true, follow: true },
+  verification: { google: 'sUKYwiSRD3RwcaMqwdlSYxVEvGn2wbips4Ii54hSR2Y' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
